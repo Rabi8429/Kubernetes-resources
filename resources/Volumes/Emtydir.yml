@@ -1,0 +1,6 @@
+   volumeMounts:
+     - mountPath: /data/db
+       name: mongo-volume
+  volumes:
+    - name: mongo-volume
+      emptyDir: {}
